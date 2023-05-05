@@ -9,8 +9,7 @@ import com.ejemplos.bogarin.entities.Usuario;
 
 @Mapper(componentModel = "spring")
 public interface UsuarioMapper {
-
-   
+    
     public UsuarioDto usuarioToUsuarioDto(Usuario usuario);
     
   
